@@ -10,7 +10,7 @@ export default function Bowlers(){
         setBowls(newBowls)
         // const oneOvers = overs + 0;
         // setBowls(oneOvers)
-        if(newBowls >= 6){
+        if(newBowls % 6 === 0){
             const newOvers = overs + 1;
             setOvers(newOvers)
         }
