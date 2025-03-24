@@ -16,9 +16,6 @@ export default function Bowlers(){
         }
     }
 
-
-
-
     const addStyle = {
         backgroundColor: "#5cf7be",
         padding: "20px",
